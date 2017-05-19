@@ -1,0 +1,19 @@
+{
+    "name": "worms/silex",
+    "authors": [
+        {
+            "name": "Marco Worms",
+            "email": "marcogworms@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "^2.1",
+        "grrr-amsterdam/garp-functional": "^1.0"
+    },
+    "autoload": {
+      "files": [
+        "src/double.php",
+        "src/buildRoutes.php"
+      ]
+    }
+}
